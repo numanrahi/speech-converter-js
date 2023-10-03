@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- BS Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <div class="text-center" id="text-to-speech">
+      <div class="fs-1 m-2">Speech Converter</div>
+      <div>
+        <textarea
+          class="p-3 border border-primary text-height text-justify"
+          id="text"
+          placeholder="Write the text here what you want to listen"
+        ></textarea>
+      </div>
+      <button id="speak-button" class="btn btn-primary w-25">Speak</button>
+      <br />
+      <button id="stop-button" class="btn btn-primary w-25 mt-3">stop</button>
+    </div>
+    <!-- BS script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JS File  -->
+    <script src="./JS/app.js"></script>
+  </body>
+</html>
